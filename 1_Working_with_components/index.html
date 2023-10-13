@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/face.jpg" height="50px" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Bikes</a></li>
+                  <li><a class="dropdown-item" href="#">Cars</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something Else</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 border-2 shadow-none rounded border-secondary"  type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slider -->
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" >
+          <div class="carousel-item active" data-bs-interval="2000" > 
+            <img src="images/wallpaperflare.com_wallpaper (5).jpg" class="d-block w-100" style="height: 450px;; width:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First Image</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/wallpaperflare.com_wallpaper (4).jpg" class="d-block w-100 img-fluid" style="height:450px; width:auto;" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                
+              <h5>Second Image</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="images/logo.webp" class="d-block w-100" style="height: 450px; width:auto" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+               
+              <h5>Third Image</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Content -->
+      <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="display-6 mt-5 mb-2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ducimus sunt ab nisi? Obcaecati earum id iusto! <br> Facere accusantium corrupti sunt?</h3><br>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="row justify-content-evenly mb-3">
+                <div class="col-md-3 mt-5 text-center">
+                    <h1><i class="bi bi-bag-check text-primary"></i></h1>
+                    <h3>Headings</h3>
+                    <p>This is the heading portion, This is only for sample data.</p>
+                </div>
+                <div class="col-md-3 mt-5 text-center">
+                    <h1><i class="bi bi-car-front text-success"></i></h1>
+                    <h3>Headings</h3>
+                    <p>This is the heading portion, This is only for sample data.</p>
+                </div>
+                <div class="col-md-3 mt-5 text-center">
+                    <h1><i class="bi bi-basket-fill text-danger"></i></h1>
+                    <h3>Headings</h3>
+                    <p>This is the heading portion, This is only for sample data.</p>
+                </div>
+            </div>
+
+            <!-- Line -->
+            <hr>
+
+            <!-- Growth -->
+            <div class="row justify-content-evenly mt-3 my-auto">
+                <div class="col-md-5 pt-5  text-center">
+                    <img src="images/img1.avif" class="img-fluid" style="height:350px;width:400px;" alt="" srcset="">
+                </div>
+                <div class="col-md-5 my-auto mt-5">
+                    <h6 class="mt-3">My Technology Knowledge</h6>
+                    <div class="progress" role="progressbar" aria-label="Default striped example" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped" style="width: 90%"></div>
+                    </div>
+                    
+                    <h6 class="mt-3">My Vocab</h6>
+                    <div class="progress" role="progressbar" aria-label="Success striped example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-success" style="width: 25%"></div>
+                    </div>
+
+                    <h6 class="mt-3">My Speaking</h6>
+                    <div class="progress" role="progressbar" aria-label="Info striped example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-info" style="width: 50%"></div>
+                    </div>
+
+                    <h6 class="mt-3">Reading</h6>
+                    <div class="progress" role="progressbar" aria-label="Warning striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-warning" style="width: 75%"></div>
+                    </div>
+
+                    <h6 class="mt-3">Writing</h6>
+                    <div class="progress" role="progressbar" aria-label="Danger striped example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%"></div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+            <div class="row bg-body-secondary mt-5 justify-content-evenly mt-4 pt-4 mb-4 ">
+                <div class="col-md-5 mt-4 pt-4 mb-4">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                      </form>
+                </div>
+                <div class="col-md-5 mt-4 pt-4 mb-4">
+                    <h2>Address</h1>
+                    <p>H.NO 1982 Golden House, Clement Town,<br> Dehradun-2400202, Uttarakhand, India</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57936.668891316796!2d92.74243932522401!3d24.828243905053814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374e4a625ae8cddd%3A0x1783d41a15380398!2sSilchar%2C%20Assam!5e0!3m2!1sen!2sin!4v1697226457425!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row mt-5 mb-5 justify-content-evenly">
+                <div class="col-md-10">
+                    <h2 class="text-center mb-4">FAQ</h2>
+                    <div class="accordion accordion-flush border" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="row text-white bg-dark justify-content-evenly mt-3 pb-3 text-center">
+                <div class="col-md-3 mt-5">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus quae quis tempore autem dignissimos ratione?</p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod commodi saepe veniam.</p>
+                </div>
+                <div class="col-md-3 mt-5">
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, inventore.</p>
+                </div>
+              </div>
+
+              <!-- Footer -->
+              <div class="row bg-secondary text-center text-white pt-3">
+                <div class="col-12">
+                    <p>copyright@2002 Technology center. All Right Reserved</p>
+                </div>
+              </div>
+      </div>
+
+           
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
